@@ -12,9 +12,9 @@ output [5:0] IRAM_A;
 output busy;
 output done;
 
-localparam S_LOAD = 0;
-localparam S_CMD = 1;
-localparam S_WRITE = 2;
+localparam S_LOAD = 2'd0;
+localparam S_CMD = 2'd1;
+localparam S_WRITE = 2'd2;
 
 localparam WRITE = 4'd0;
 localparam UP = 4'd1;
